@@ -1,7 +1,7 @@
 const weatherForm = document.querySelector(".weatherForm");         //gets element by querySelector since it is a class
 const cityInput = document.querySelector(".cityInput");
 const card = document.querySelector(".card");
-const apiKey = "2b3e044b60d5d1fc8915014c9bafa381";
+const apiKey = "***************************";                       // generate api key from openweathermap.org webpage
 
 weatherForm.addEventListener("submit", async event => {
 
